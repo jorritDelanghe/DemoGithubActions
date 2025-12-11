@@ -2,7 +2,9 @@
 #include <stdexcept>
 
 int Calculator::Add(int a, int b) {
+    #if defined(_WINDOWS)
     return a + b;
+    #endif
 }
 
 int Calculator::Subtract(int a, int b) {
