@@ -5,6 +5,7 @@ int Calculator::Add(int a, int b) {
     #if defined(_WINDOWS)
     return a + b;
     #endif
+    return a+b;
 }
 
 int Calculator::Subtract(int a, int b) {
